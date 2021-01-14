@@ -1,0 +1,63 @@
+.color {
+    color: #ffffff;
+}
+.colorGrey {
+    color: darkgray;
+    text-decoration: none;
+}
+.body {
+    background: whitesmoke;
+}
+.sidebar {
+    height: 100vh;
+}
+.table{
+    border:none #cccccc;
+}
+.heightMultiple {
+    height: 60px;
+    margin-bottom: 10px;
+}
+.panel-heading {
+    border: 2px solid #cccccc;
+    border-bottom: none;
+    padding: 10px;
+}
+.panel-body {
+    background: white;
+    padding: 10px;
+    border:2px solid #cccccc;
+}
+.title {
+    margin-left: 20px;
+}
+@media (min-width: 768px) {
+    .navbar-container {
+        position: sticky;
+        top: 0;
+        overflow-y: auto;
+
+    }
+
+    .navbar-container .navbar {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+
+    .navbar-container .navbar-collapse {
+        align-items: flex-start;
+    }
+
+    .navbar-container .navbar-nav {
+        flex-direction: column !important;
+    }
+    .disabled {
+        pointer-events: none;
+    }
+}
+input {outline: none;}
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #FAFFBD !important; /* Цвет фона */
+}
